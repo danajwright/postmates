@@ -20,6 +20,25 @@
 @font-face {
   font-family: 'myriadpro';
   font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/MYRIADPRO-COND.eot') format('embedded-opentype'),
+  url('../fonts/MYRIADPRO-COND.ttf') format('truetype'),
+  url('../fonts/MYRIADPRO-COND.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'myriadpro';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/MYRIADPRO-LIGHT.eot') format('embedded-opentype'),
+  url('../fonts/MYRIADPRO-LIGHT.ttf') format('truetype'),
+  url('../fonts/MYRIADPRO-LIGHT.svg') format('svg'),
+  url('../fonts/MYRIADPRO-LIGHT.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'myriadpro';
+  font-style: normal;
   font-weight: bold;
   src: url('../fonts/MYRIADPRO-BOLD.eot') format('embedded-opentype'),
   url('../fonts/MYRIADPRO-BOLD.ttf') format('truetype'),
