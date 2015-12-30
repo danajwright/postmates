@@ -1,66 +1,40 @@
 
+
 @font-face {
   font-family: 'fontawesome';
-  src: url('../fonts/fontawesome.eot') format('embedded-opentype'), /* IE6-IE8 */
-  url('../fonts/fontawesome.woff2') format('woff2'), /* Super Modern Browsers */
-  url('../fonts/fontawesome.woff') format('woff'), /* Pretty Modern Browsers */
-  url('../fonts/fontawesome.ttf')  format('truetype'), /* Safari, Android, iOS */
-  url('../fonts/fontawesome.svg') format('svg'); /* Legacy iOS */
+  src: url('../fonts/fontawesome.eot') format('embedded-opentype'),
+  url('../fonts/fontawesome.woff2') format('woff2'),
+  url('../fonts/fontawesome.woff') format('woff'),
+  url('../fonts/fontawesome.ttf')  format('truetype'),
+  url('../fonts/fontawesome.svg') format('svg');
 }
 
 @font-face {
-  font-family: 'Lato';
+  font-family: 'myriadpro';
   font-style: normal;
-  font-weight: 900;
-
-  src: url('../fonts/lato/lato-black.eot');
-  src: url('../fonts/lato/lato-black.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-black.woff') format('woff'), url('../fonts/lato/lato-black.ttf') format('truetype'), url('../fonts/lato/lato-black.svg#latoblack') format('svg');
+  src: url('../fonts/MYRIADPRO-REGULAR.eot') format('embedded-opentype'),
+  url('../fonts/MYRIADPRO-REGULAR.ttf') format('truetype'),
+  url('../fonts/MYRIADPRO-REGULAR.svg') format('svg');
 }
 
 @font-face {
-  font-family: 'Lato';
+  font-family: 'myriadpro';
   font-style: normal;
   font-weight: bold;
-
-  src: url('../fonts/lato/lato-bold.eot');
-  src: url('../fonts/lato/lato-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-bold.woff') format('woff'), url('../fonts/lato/lato-bold.ttf') format('truetype'), url('../fonts/lato/lato-bold.svg#latobold') format('svg');
+  src: url('../fonts/MYRIADPRO-BOLD.eot') format('embedded-opentype'),
+  url('../fonts/MYRIADPRO-BOLD.ttf') format('truetype'),
+  url('../fonts/MYRIADPRO-BOLD.svg') format('svg');
 }
 
 @font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: bold;
-
-  src: url('../fonts/lato/lato-bolditalic.eot');
-  src: url('../fonts/lato/lato-bolditalic.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-bolditalic.woff') format('woff'), url('../fonts/lato/lato-bolditalic.ttf') format('truetype'), url('../fonts/lato/lato-bolditalic.svg#latobold-italic') format('svg');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: normal;
-
-  src: url('../fonts/lato/lato-italic.eot');
-  src: url('../fonts/lato/lato-italic.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-italic.woff') format('woff'), url('../fonts/lato/lato-italic.ttf') format('truetype'), url('../fonts/lato/lato-italic.svg#latoitalic') format('svg');
-}
-
-@font-face {
-  font-family: 'Lato';
+  font-family: 'myriadpro';
   font-style: normal;
-  font-weight: 300;
-
-  src: url('../fonts/lato/lato-light.eot');
-  src: url('../fonts/lato/lato-light.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-light.woff') format('woff'), url('../fonts/lato/lato-light.ttf') format('truetype'), url('../fonts/lato/lato-light.svg#latolight') format('svg');
+  font-weight: 600;
+  src: url('../fonts/MYRIADPRO-SEMIBOLD.eot') format('embedded-opentype'),
+  url('../fonts/MYRIADPRO-SEMIBOLD.ttf') format('truetype'),
+  url('../fonts/MYRIADPRO-SEMIBOLD.svg') format('svg');
 }
 
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: normal;
-
-  src: url('../fonts/lato/lato-regular.eot');
-  src: url('../fonts/lato/lato-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-regular.woff') format('woff'), url('../fonts/lato/lato-regular.ttf') format('truetype'), url('../fonts/lato/lato-regular.svg#latoregular') format('svg');
-}
 
 
 
@@ -68,31 +42,32 @@
 	clear: both;
 }
 
+p {
+  font-family: 'myriadpro', sans-serif;
+}
+
 a {
-  color: rgba(255,255,255,.85);
-  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-family: 'myriadpro', sans-serif;
   -webkit-transition: 150ms ease-in;
   -moz-transition: 150ms ease-in;
   -o-transition: 150ms ease-in;
   transition: 150ms ease-in;
-
 }
 
 a:hover {
-  color: rgba(255,255,255,1);
+  color: #fff;
   cursor: pointer;
   text-decoration: none
 }
 
 a:focus {
-  color: rgba(255,255,255,.85);
+  color: #fff;
   text-decoration: none;
   outline: none;
   outline: 0px auto -webkit-focus-ring-color;
   outline-offset: 0px;
 }
-
-
 
 .constrainer {
   margin: auto;
