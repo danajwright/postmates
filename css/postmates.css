@@ -108,7 +108,6 @@
     border: 0px;
     outline: none;
     color: #919191;
-    border-radius: 3px 0px 0px 3px;
 }
 
 .signup-form-fields input::-webkit-input-placeholder {
@@ -138,7 +137,6 @@
 	letter-spacing: 1.1px;
 	display: inline-block;
 	background-color: #7fdbd4;
-	border-radius: 0px 3px 3px 0px;
 	padding-top: 14px;
 	padding-bottom: 12px;
 	width: 30%;
@@ -274,10 +272,40 @@
   z-index: 1;
 }
 
+/*--- Juice Overlay ---*/
+
+.juice-overlay {
+  display: block;
+  overflow: hidden;
+  margin-left: 2px;
+  background-color: rgba(0,0,0,0.6);
+  height: 124px;
+  margin-top: -124px;
+  z-index: 2;
+}
+
+.juice-overlay img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20%;
+	width: 21px;
+}
+
+.juice-overlay p {
+	margin-top: 10px;
+	text-align: center;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #7fdbd4;
+	font-size: 11px;
+	letter-spacing: 1.2px;
+}
+
+
+
 
 /*----------------- BANNER 3 -------------------*/
-
-
 
 .banner3-col {
 	padding: 0px;
@@ -293,6 +321,37 @@
   height: 124px;
   z-index: 1;
 }
+
+/*--- Mexican Overlay ---*/
+
+.mexican-overlay {
+  display: block;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.6);
+  height: 124px;
+  margin-top: -124px;
+  z-index: 2;
+}
+
+.mexican-overlay img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 18%;
+	width: 36px;
+}
+
+.mexican-overlay p {
+	margin-top: 10px;
+	text-align: center;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #7fdbd4;
+	font-size: 11px;
+	letter-spacing: 1.2px;
+}
+
+
 
 .banner3-img2 {
   display: block;
@@ -400,6 +459,8 @@
 }
 
 .banner4-img3 {
+  display: block;
+  overflow: hidden;
   margin-top: 2px;
   margin-left: 2px;
   background: url(../img/image_4505.png) no-repeat center center;
@@ -409,6 +470,16 @@
   background-size: cover;
   height: 250px;
   z-index: 1;
+}
+
+.banner4-img3 p {
+	margin-top: 221px;
+	margin-left: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 11px;
+	letter-spacing: 1.2px;
 }
 
 
@@ -433,7 +504,42 @@
   z-index: 1;
 }
 
+
+/*--- Pizza Overlay ---*/
+
+.pizza-overlay {
+  display: block;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.6);
+  height: 124px;
+  margin-top: -124px;
+  z-index: 2;
+}
+
+.pizza-overlay img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 16%;
+	width: 27px;
+}
+
+.pizza-overlay p {
+	margin-top: 10px;
+	text-align: center;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #7fdbd4;
+	font-size: 11px;
+	letter-spacing: 1.2px;
+}
+
+
+
+
 .banner5-img2 {
+  display: block;
+  overflow: hidden;
   margin-top: 2px;
   margin-left: 2px;
   background: url(../img/image_plant.png) no-repeat center center;
@@ -445,12 +551,38 @@
   z-index: 1;
 }
 
+.banner5-img2 p {
+	margin-top: 99px;
+	margin-left: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 11px;
+	letter-spacing: 1.2px;
+}
+
 .banner5-img3 {
+  display: block;
+  overflow: hidden;
   margin-top: 2px;
   margin-left: 2px;
   background-color: #7fdbd4;
   height: 124px;
   z-index: 1;
+}
+
+.banner5-img3 p {
+	margin-top: 25%;
+	text-align: center;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 11px;
+	letter-spacing: 1.2px;
+}
+
+.banner5-img3 i {
+	font-size: 10px;
 }
 
 
