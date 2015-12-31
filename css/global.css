@@ -129,7 +129,7 @@ a:focus {
 
 .constrainer {
   margin: auto;
-  max-width: 690px;
+  max-width: 700px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -137,7 +137,7 @@ a:focus {
 
 .nav-constrainer {
   margin: auto;
-  max-width: 690px;
+  max-width: 700px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -149,14 +149,14 @@ a:focus {
 
 .constrainer {
   margin: auto;
-  max-width: 930px;
+  max-width: 700px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .nav-constrainer {
   margin: auto;
-  max-width: 930px;
+  max-width: 700px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -168,14 +168,14 @@ a:focus {
 
 .constrainer {
   margin: auto;
-  max-width: 1000px;
+  max-width: 700px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .nav-constrainer {
   margin: auto;
-  max-width: 1000px;
+  max-width: 700px;
   padding-left: 10px;
   padding-right: 10px;
 }

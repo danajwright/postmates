@@ -87,11 +87,6 @@
 	font-size: 15px;
 }
 
-.info-btn-container {
-	margin: auto;
-	width: 209px;
-}
-
 
 /*----------------- FORM SECTION -------------------*/
 
@@ -139,21 +134,324 @@
 }
 
 .search-btn {
+	font-weight: 600;
+	letter-spacing: 1.1px;
 	display: inline-block;
 	background-color: #7fdbd4;
 	border-radius: 0px 3px 3px 0px;
 	padding-top: 14px;
 	padding-bottom: 12px;
 	width: 30%;
-	color: #fff;
+	color: #000;
 }
 
 .search-btn:hover {
-  color: #fff;
+  color: #000;
   cursor: pointer;
   text-decoration: none
 }
 
+
+/*----------------- BANNER 1 -------------------*/
+
+.banner1 {
+	margin-top: 36px;
+}
+
+.banner1-img {
+  display: block;
+  overflow: hidden;
+  background: url(../img/image_bobaguys.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 250px;
+  z-index: 1;
+}
+
+.banner1-img p {
+	margin-top: 90px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	letter-spacing: 1.2px;
+}
+
+.info-btn-container {
+	margin: auto;
+	width: 130px;
+}
+
+.info-btn {
+	margin-top: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	background-color: #fff;
+	border: 2px solid #7fdbd4;
+	padding-top: 9px;
+	padding-bottom: 7px;
+	padding-left: 18px;
+	padding-right: 18px;
+	color: #000;
+	font-weight: 600;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 1.1px;
+}
+
+.info-btn:hover {
+	color: #000;
+}
+
+
+/*----------------- BANNER 2 -------------------*/
+
+.banner2 {
+	margin-top: 2px;
+}
+
+.banner2-col {
+	padding: 0px;
+}
+
+.banner2-img1 {
+  display: block;
+  overflow: hidden;
+  background: url(../img/image_delfina.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 250px;
+  z-index: 1;
+}
+
+.banner2-img1 p {
+	margin-top: 221px;
+	margin-left: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 11px;
+	letter-spacing: 1.2px;
+}
+
+.banner2-img2 {
+  display: block;
+  overflow: hidden;
+  margin-left: 2px;
+  background: url(../img/image_namugaji.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 124px;
+  z-index: 1;
+}
+
+.banner2-img2 p {
+	margin-top: 99px;
+	margin-left: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 11px;
+	letter-spacing: 1.2px;
+}
+
+.banner2-img3 {
+  margin-top: 2px;
+  margin-left: 2px;
+  background: url(../img/image_projectjuice.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 124px;
+  z-index: 1;
+}
+
+
+/*----------------- BANNER 3 -------------------*/
+
+
+
+.banner3-col {
+	padding: 0px;
+}
+
+.banner3-img1 {
+  margin-top: 2px;
+  background: url(../img/image_mexico.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 124px;
+  z-index: 1;
+}
+
+.banner3-img2 {
+  display: block;
+  overflow: hidden;
+  margin-top: 2px;
+  margin-left: 2px;
+  background: url(../img/image_plant.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 124px;
+  z-index: 1;
+}
+
+.banner3-img2 p {
+	margin-top: 99px;
+	margin-left: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 11px;
+	letter-spacing: 1.2px;
+}
+
+.banner3-img3 {
+  display: block;
+  overflow: hidden;
+  margin-top: 2px;
+  margin-left: 2px;
+  background: url(../img/image_wisesons.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 124px;
+  z-index: 1;
+}
+
+.banner3-img3 p {
+	margin-top: 99px;
+	margin-left: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 11px;
+	letter-spacing: 1.2px;
+}
+
+
+
+/*----------------- BANNER 4 -------------------*/
+
+.banner4 {
+}
+
+.banner4-col {
+	padding: 0px;
+}
+
+.banner4-img1 {
+  display: block;
+  overflow: hidden;
+  margin-top: 2px;
+  background: url(../img/image_projectjuice.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 124px;
+  z-index: 1;
+}
+
+.banner4-img1 p {
+	margin-top: 99px;
+	margin-left: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 11px;
+	letter-spacing: 1.2px;
+}
+
+.banner4-img2 {
+  display: block;
+  overflow: hidden;
+  margin-top: 2px;
+  background: url(../img/image_fraiche.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 124px;
+  z-index: 1;
+}
+
+.banner4-img2 p {
+	margin-top: 99px;
+	margin-left: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 11px;
+	letter-spacing: 1.2px;
+}
+
+.banner4-img3 {
+  margin-top: 2px;
+  margin-left: 2px;
+  background: url(../img/image_4505.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 250px;
+  z-index: 1;
+}
+
+
+/*----------------- BANNER 5 -------------------*/
+
+.banner5 {
+	margin-bottom: 36px;
+}
+
+.banner5-col {
+	padding: 0px;
+}
+
+.banner5-img1 {
+  margin-top: 2px;
+  background: url(../img/image_pizza.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 124px;
+  z-index: 1;
+}
+
+.banner5-img2 {
+  margin-top: 2px;
+  margin-left: 2px;
+  background: url(../img/image_plant.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 124px;
+  z-index: 1;
+}
+
+.banner5-img3 {
+  margin-top: 2px;
+  margin-left: 2px;
+  background-color: #7fdbd4;
+  height: 124px;
+  z-index: 1;
+}
 
 
 @media (min-width: 480px) {
